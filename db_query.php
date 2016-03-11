@@ -10,9 +10,7 @@ class Db_query
     }
     public function Get_IDCustPass_bylog($login)
     {
-        
         $query = $this->pdo->prepare("SELECT ID_Customer, Password FROM customers WHERE Login = '".$login."' ");
-
         $query->execute();
         $rows=$query->fetch(PDO::FETCH_ASSOC);
         return $rows;

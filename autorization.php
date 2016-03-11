@@ -22,7 +22,6 @@ if($rows['Password'] ==  $password){
  }
  else {
      echo "Wrong login or password";
-     
  }
  }
 ?>
