@@ -1,0 +1,52 @@
+.main{
+  height: 570px;
+  width: 1350px;
+    background-color: beige;
+}
+
+.category{
+    
+    top: 0px;
+    height: 570px;
+    width: 300px;
+    background-color: darkgrey;  
+    text-align: center;
+}
+
+.shop{
+
+    top: 0px;
+    height: 570px;
+    width: 1050px;
+    background-color: aquamarine;  
+    float: right;
+}
+.search{
+    top: 0px;
+    height: 100px;
+    width: 1050px;
+    background-color: darksalmon;  
+    float: right;
+    
+}
+
+.products{
+    top: 0px;
+    height: 470px;
+    width: 1050px;
+    background-color: burlywood;  
+    float: right;  
+    overflow-y: auto;
+}
+
+.category a{
+    margin-top: 100px;
+  text-decoration: none;  
+}
+#login {
+
+    height: 20px;
+    width: 60px;
+    float: right;
+}
+
