@@ -18,7 +18,7 @@ if($rows['Password'] ==  $password){
    }
 	$_SESSION['id'] = $rows['ID_Customer'];
     
-    header("Location: shop.php");
+    header("Location: index.php");
  }
  else {
      echo "Wrong login or password";
